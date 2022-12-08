@@ -1,11 +1,11 @@
-#  𓊈𒆜 PAINEL VIP SONYC-PLUS 𒆜𓊉
+#  𓊈𒆜 PAINEL VIP ASCNET-VPN 𒆜𓊉
 
 ⚠ <b>SISTEMA SUPORTADO:</b></br>
 👉 <b>(UBUNTU 18)</b></br>
 
 
 ```
-apt install wget -y; bash <(wget -qO- https://github.com/lucianolima2905/Pweb-Sonyc_Plus/raw/main/install/ubuinst.sh)
+apt install wget -y; bash <(wget -qO- https://github.com/ascnet/Pweb-AscNetVpn/raw/main/install/ubuinst.sh)
 ```
 </br>
 
@@ -16,11 +16,11 @@ apt install wget -y; bash <(wget -qO- https://github.com/lucianolima2905/Pweb-So
 
 # 𓊈𒆜 SINCRONIZAR NA VPS SSH! 𒆜𓊉
 ```
-apt install wget -y; bash <(wget -qO- https://github.com/lucianolima2905/Pweb-Sonyc_Plus/raw/main/install/sincpainel.sh)
+apt install wget -y; bash <(wget -qO- https://github.com/ascnet/Pweb-AscNetVpn/raw/main/install/sincpainel.sh)
 ```
 
 
-# 𓊈𒆜 ATUALIZAÇÕES: (10/11/2022) 𒆜𓊉
+# 𓊈𒆜 ATUALIZAÇÕES: (08/12/2022) 𒆜𓊉
 ```
 1- Comando pweb
 (Funciona via terminal SSH)
@@ -81,6 +81,7 @@ apt install wget -y; bash <(wget -qO- https://github.com/lucianolima2905/Pweb-So
 @swittecnologia
 @Davidsdy
 @sonycssh
+@ascnet_vpn
 
-# 𓊈𒆜 GRUPO SONYC SSH: 𒆜𓊉
+# 𓊈𒆜 GRUPO ASCNET-VPN: 𒆜𓊉
 👉 https://t.me/sonycsshgp
