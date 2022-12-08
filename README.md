@@ -5,7 +5,7 @@
 
 
 ```
-apt install wget -y; bash <(wget -qO- https://github.com/ascnet/Pweb-AscNetVpn/raw/main/install/ubuinst.sh)
+apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ascnet/Pweb-AscNetVpn/main/ubuinst.sh?token=GHSAT0AAAAAAB27JO64K2S4LTDHO3W2XRZWY4SI3YA)
 ```
 </br>
 
