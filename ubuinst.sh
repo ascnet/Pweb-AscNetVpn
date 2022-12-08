@@ -129,7 +129,7 @@ function install_start {
 if [[ -e "/var/www/html/pages/system/pass.php" ]]; then
 clear
 msg -bar
-echo -e "\033[1;31mPAINEL JÁ INSTALDO EM SUA VPS, RECOMENDO\033[0m"
+echo -e "\033[1;31mJA EXISTE UM PAINEL INSTALDO EM SUA VPS, RECOMENDO\033[0m"
 echo -e "\033[1;31mUMA FORMATAÇÃO PARA UMA NOVA INSTALÇÃO!\033[0m"
 msg -bar
 sleep 5
@@ -142,7 +142,7 @@ else
   msg -bar
   echo -e "\e[1;97m           \e[5m\033[1;100m   ATUALIZAÇÃO DO SISTEMA   \033[1;37m"
   msg -bar
-  print_center -ama "O sistema será atualizado.\n Pode demorar um pouco e pedir algumas confirmações.\n"
+  print_center -ama "O sistema será atualizado.\n Isso Pode demorar um pouco e pedir algumas confirmações.\n"
   msg -bar3
   msg -ne "\n Você deseja continuar? [S/n]: "
   read opcion
@@ -192,16 +192,16 @@ function install_continue {
 function install_continue2 {
 cd /bin || exit
 rm pweb > /dev/null 2>&1
-wget https://github.com/ascnet/Pweb-AscNetVpn/raw/main/install/pweb > /dev/null 2>&1
+wget https://github.com/ascnet/Pweb-AscNetVpn/raw/main/pweb > /dev/null 2>&1
 chmod 777 pweb > /dev/null 2>&1
 clear
 [[ ! -d /bin/ppweb ]] && mkdir /bin/ppweb
 cd /bin/ppweb || exit
 rm *.sh ver* > /dev/null 2>&1
-wget https://github.com/ascnet/Pweb-AscNetVpn/raw/main/install/verifatt.sh > /dev/null 2>&1
-wget https://github.com/ascnet/Pweb-AscNetVpn/raw/main/install/verpweb > /dev/null 2>&1
-wget https://github.com/ascnet/Pweb-AscNetVpn/raw/main/install/verweb > /dev/null 2>&1
-wget https://github.com/ascnet/Pweb-AscNetVpn/raw/main/install/whatsapp.sh > /dev/null 2>&1
+wget https://github.com/ascnet/Pweb-AscNetVpn/raw/main/verifatt.sh > /dev/null 2>&1
+wget https://github.com/ascnet/Pweb-AscNetVpn/raw/main/verpweb > /dev/null 2>&1
+wget https://github.com/ascnet/Pweb-AscNetVpn/raw/main/verweb > /dev/null 2>&1
+wget https://github.com/ascnet/Pweb-AscNetVpn/raw/main/whatsapp.sh > /dev/null 2>&1
 verp=$(sed -n '1 p' /bin/ppweb/verpweb| sed -e 's/[^0-9]//ig') &>/dev/null
 verw=$(sed -n '1 p' /bin/ppweb/verweb| sed -e 's/[^0-9]//ig') &>/dev/null
 echo -e "$verp" >/bin/ppweb/attpweb
@@ -244,7 +244,7 @@ curl -sS https://getcomposer.org/installer | php > /dev/null 2>&1
 mv composer.phar /usr/local/bin/composer > /dev/null 2>&1
 chmod +x /usr/local/bin/composer > /dev/null 2>&1
 cd /var/www/html || exit
-wget https://github.com/ascnet/Pweb-AscNetVpn/raw/main/install/gestorssh.zip > /dev/null 2>&1
+wget https://github.com/ascnet/Pweb-AscNetVpn/raw/main/gestorssh.zip > /dev/null 2>&1
 apt-get install unzip > /dev/null 2>&1
 unzip gestorssh.zip > /dev/null 2>&1
 (echo yes; echo yes; echo yes; echo yes) | composer install > /dev/null 2>&1
@@ -333,9 +333,9 @@ clear
 echo -e "\E[44;1;37m    INSTALANDO PAINEL    \E[0m"
 echo ""
 echo -e "WEB SONYC SSH" | figlet | boxes -d stone -p a0v0 | lolcat
-echo -e "                              \033[1;31mModificado por @sonycssh\033[1;36m" | lolcat
+echo -e "                              \033[1;31mModificado por @ascnet_vpn\033[1;36m" | lolcat
 echo ""
-chave=$(curl -sSL "https://github.com/ascnet/Pweb-AscNetVpn/raw/main/install/chave") &>/dev/null
+chave=$(curl -sSL "https://github.com/ascnet/Pweb-AscNetVpn/raw/main/chave") &>/dev/null
 
 read -p "DIGITE A CHAVE DE INSTALAÇÃO: " key
     
