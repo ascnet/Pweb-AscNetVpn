@@ -1,26 +1,26 @@
-#  𓊈𒆜 PAINEL VIP ASCNET-VPN 𒆜𓊉
+♻️ PAINEL VIP ASCNET-VPN ♻️
 
-⚠ <b>SISTEMA SUPORTADO:</b></br>
-👉 <b>(UBUNTU 18)</b></br>
+💻 Requisitos Minimos
+S.O: Ubuntu 18
+RAM: 512
+Nucleos: 1
 
-
-```
+```Instalação 🐱‍💻
 apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ascnet/Pweb-AscNetVpn/main/ubuinst.sh)
 ```
 </br>
 
-# 𓊈𒆜 CHAVE DE INSTALAÇÃO! 𒆜𓊉
+✅ CHAVE DE INSTALAÇÃO ✅
 ```
 @ascnet_vpn
 ```
 
-# 𓊈𒆜 SINCRONIZAR NA VPS SSH! 𒆜𓊉
+⚡ SINCRONIZAR NA VPS SSH! ⚡
 ```
 apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ascnet/Pweb-AscNetVpn/main/sincpainel.sh)
 ```
 
-
-# 𓊈𒆜 ATUALIZAÇÕES: (08/12/2022) 𒆜𓊉
+🔁 ATUALIZAÇÕES: (08/12/2022) 🔁
 ```
 1- Comando pweb
 (Funciona via terminal SSH)
@@ -84,4 +84,4 @@ apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ascnet/P
 @ascnet_vpn
 
 # 𓊈𒆜 GRUPO ASCNET-VPN: 𒆜𓊉
-👉 https://t.me/sonycsshgp
+👉 https://
