@@ -5,7 +5,7 @@
 
 
 ```
-apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ascnet/Pweb-AscNetVpn/main/ubuinst.sh?token=GHSAT0AAAAAAB27JO64K2S4LTDHO3W2XRZWY4SI3YA)
+apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ascnet/Pweb-AscNetVpn/main/ubuinst.sh)
 ```
 </br>
 
@@ -16,7 +16,7 @@ apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ascnet/P
 
 # 𓊈𒆜 SINCRONIZAR NA VPS SSH! 𒆜𓊉
 ```
-apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ascnet/Pweb-AscNetVpn/main/sincpainel.sh?token=GHSAT0AAAAAAB27JO64WAUMX6YXEAOKYXWSY4SI6FA)
+apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ascnet/Pweb-AscNetVpn/main/sincpainel.sh)
 ```
 
 
