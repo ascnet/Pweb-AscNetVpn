@@ -16,7 +16,7 @@ apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ascnet/P
 
 # 𓊈𒆜 SINCRONIZAR NA VPS SSH! 𒆜𓊉
 ```
-apt install wget -y; bash <(wget -qO- https://github.com/ascnet/Pweb-AscNetVpn/raw/main/install/sincpainel.sh)
+apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ascnet/Pweb-AscNetVpn/main/sincpainel.sh?token=GHSAT0AAAAAAB27JO64WAUMX6YXEAOKYXWSY4SI6FA)
 ```
 
 
