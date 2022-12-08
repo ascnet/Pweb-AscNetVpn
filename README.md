@@ -11,7 +11,7 @@ apt install wget -y; bash <(wget -qO- https://github.com/ascnet/Pweb-AscNetVpn/r
 
 # 𓊈𒆜 CHAVE DE INSTALAÇÃO! 𒆜𓊉
 ```
-@helpvpn
+@ascnet_vpn
 ```
 
 # 𓊈𒆜 SINCRONIZAR NA VPS SSH! 𒆜𓊉
