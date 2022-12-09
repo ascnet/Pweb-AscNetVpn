@@ -6,8 +6,9 @@ RAM: 512
 Nucleos: 1
 
 ATUALIZAR PACOTES DO SISTEMA
+```
 apt-get update -y; apt-get upgrade -y;
-
+```
 ```Instalação 🐱‍💻
 bash <(wget -qO- https://raw.githubusercontent.com/ascnet/Pweb-AscNetVpn/main/ubuinst.sh)
 ```
