@@ -6,7 +6,7 @@ RAM: 512
 Nucleos: 1
 
 ```Instalação 🐱‍💻
-apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ascnet/Pweb-AscNetVpn/main/ubuinst.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/ascnet/Pweb-AscNetVpn/main/ubuinst.sh)
 ```
 </br>
 
