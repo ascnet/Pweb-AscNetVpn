@@ -122,7 +122,7 @@ cat /dev/null > ~/.bash_history && history -c
 }
 autoexec () {
    if grep "pweb;" /etc/profile > /dev/null; then
-      echo ""
+      clear
       echo -e "\033[1;32mDESATIVANDO AUTO EXECUÇÃO DO PWEB\033[0m"
       offautpweb () {
          sed -i '/pweb;/d' /etc/profile
@@ -132,20 +132,20 @@ autoexec () {
       echo ""
       echo -e "\033[1;31mAUTO EXECUÇÃO DESATIVADO!\033[0m"
       sleep 2.5s
-      pweb
+      pweb2
    else
-      echo ""
+      clear
       echo -e "\033[1;32mATIVANDO AUTO EXECUÇÃO DO PWEB\033[0m"
       autpweb () {
          grep -v "^pweb;" /etc/profile > /tmp/tmpass && mv /tmp/tmpass /etc/profile
          echo "pweb;" >> /etc/profile
       }
       echo ""
-      fun_bar 'onautpweb'
+      fun_bar 'autpweb'
       echo ""
       echo -e "\033[1;32mAUTO EXECUÇÃO ATIVADO!\033[0m"
       sleep 2.5s
-      pweb
+      pweb2
    fi
 
 }
