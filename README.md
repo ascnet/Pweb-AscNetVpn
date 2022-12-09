@@ -1,9 +1,12 @@
 ♻️ PAINEL VIP ASCNET-VPN ♻️
 
 💻 Requisitos Minimos
-S.O: Ubuntu 18
-RAM: 512
-Nucleos: 1
+```S.O: Ubuntu 18
+```RAM: 512
+```Nucleos: 1
+
+```ATUALIZAR PACOTES DO SISTEMA
+apt-get update -y; apt-get upgrade -y;
 
 ```Instalação 🐱‍💻
 bash <(wget -qO- https://raw.githubusercontent.com/ascnet/Pweb-AscNetVpn/main/ubuinst.sh)
